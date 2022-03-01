@@ -1,0 +1,29 @@
+{
+  "0": {
+    "sheetFilePath": "..\\..\\4_Resources\\ProjectSheet\\CharacterSheet\\Bell_Sprite.png",
+    "oriPos": [ 4.0, 207.0 ],
+    "oriSize": [ 71, 90 ],
+    "size": [ 71, 90 ],
+    "pivot": [ 0.5, 0.5 ],
+    "delayTime": 0.15000000596046448,
+    "opacity": 1.0
+  },
+  "1": {
+    "sheetFilePath": "..\\..\\4_Resources\\ProjectSheet\\CharacterSheet\\Bell_Sprite.png",
+    "oriPos": [ 77.0, 206.0 ],
+    "oriSize": [ 71, 90 ],
+    "size": [ 71, 90 ],
+    "pivot": [ 0.5, 0.5 ],
+    "delayTime": 0.15000000596046448,
+    "opacity": 1.0
+  },
+  "2": {
+    "sheetFilePath": "..\\..\\4_Resources\\ProjectSheet\\CharacterSheet\\Bell_Sprite.png",
+    "oriPos": [ 150.0, 207.0 ],
+    "oriSize": [ 71, 90 ],
+    "size": [ 71, 90 ],
+    "pivot": [ 0.5, 0.5 ],
+    "delayTime": 0.15000000596046448,
+    "opacity": 1.0
+  }
+}

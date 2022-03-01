@@ -1,0 +1,7 @@
+[
+   {
+      "MainBgm":"..\\4_Resources\\main.wav",
+      "PlayerAttack":"..\\4_Resources\\Player\\Attack.wav",
+      "PlayerJump":"..\\4_Resources\\Player\\Attack.wav"
+   }
+]

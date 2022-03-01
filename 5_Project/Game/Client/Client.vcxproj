@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e8f386a6-b892-4b0a-951e-514904aa72d3}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+    <IncludePath>$(SolutionDir)JW2DEngine\;$(IncludePath);$(SolutionDir)inc</IncludePath>
+    <LibraryPath>$(SolutionDir)\Output;$(LibraryPath);$(SolutionDir)lib</LibraryPath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)inc;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)JW2DEngine\;$(IncludePath);$(SolutionDir)inc</IncludePath>
+    <LibraryPath>$(SolutionDir)\Output;$(LibraryPath);$(SolutionDir)lib</LibraryPath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)inc;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+    <IncludePath>$(SolutionDir)JW2DEngine\;$(IncludePath);$(SolutionDir)inc</IncludePath>
+    <LibraryPath>$(SolutionDir)\Output;$(LibraryPath);$(SolutionDir)lib</LibraryPath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)inc;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+    <IncludePath>$(SolutionDir)JW2DEngine\;$(IncludePath);$(SolutionDir)inc</IncludePath>
+    <LibraryPath>$(SolutionDir)\Output;$(LibraryPath);$(SolutionDir)lib</LibraryPath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)inc;$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Output\CommonFile;$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Inputs>
+      </Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile />
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Release;$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Output\CommonFile;$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Inputs>
+      </Inputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Output\CommonFile;$(SolutionDir)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AcquireCharge.cpp" />
+    <ClCompile Include="AngryMotion.cpp" />
+    <ClCompile Include="AnimClipLoader.cpp" />
+    <ClCompile Include="B3_11.cpp" />
+    <ClCompile Include="B3_11Prefab.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="BossMap.cpp" />
+    <ClCompile Include="BossPrefab.cpp" />
+    <ClCompile Include="BOSS_ENEMY_SUMMON.cpp" />
+    <ClCompile Include="BOSS_GAME_OVER.cpp" />
+    <ClCompile Include="BOSS_HIT.cpp" />
+    <ClCompile Include="BOSS_HORIZONTAL_ATTACK.cpp" />
+    <ClCompile Include="BOSS_IDLE.cpp" />
+    <ClCompile Include="BOSS_VERTICAL_ATTACK.cpp" />
+    <ClCompile Include="BrokenWall.cpp" />
+    <ClCompile Include="BrokenWallPrefab.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletPrefab.cpp" />
+    <ClCompile Include="CameraController.cpp" />
+    <ClCompile Include="CameraPrefab.cpp" />
+    <ClCompile Include="ChallengeStage.cpp" />
+    <ClCompile Include="DashMap.cpp" />
+    <ClCompile Include="EnemyController.cpp" />
+    <ClCompile Include="FadeIn.cpp" />
+    <ClCompile Include="FadeOut.cpp" />
+    <ClCompile Include="FallGround.cpp" />
+    <ClCompile Include="GameOverTextPrefab.cpp" />
+    <ClCompile Include="GameProcess.cpp" />
+    <ClCompile Include="GetThroughTile.cpp" />
+    <ClCompile Include="GetThroughTilePrefab.cpp" />
+    <ClCompile Include="IntroScene.cpp" />
+    <ClCompile Include="Lazer.cpp" />
+    <ClCompile Include="JellyFish.cpp" />
+    <ClCompile Include="JELLYFISH_GAME_OVER.cpp" />
+    <ClCompile Include="JELLYFISH_HIT.cpp" />
+    <ClCompile Include="JELLYFISH_WALK.cpp" />
+    <ClCompile Include="MainStage1.cpp" />
+    <ClCompile Include="MainStage2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="MapLoader.cpp" />
+    <ClCompile Include="MiddleSave.cpp" />
+    <ClCompile Include="Penguin.cpp" />
+    <ClCompile Include="PENGUIN_ATTACK.cpp" />
+    <ClCompile Include="PENGUIN_GAME_OVER.cpp" />
+    <ClCompile Include="PENGUIN_HIT.cpp" />
+    <ClCompile Include="PENGUIN_RUN.cpp" />
+    <ClCompile Include="PENGUIN_WALK.cpp" />
+    <ClCompile Include="Portal.cpp" />
+    <ClCompile Include="PortalPrefab.cpp" />
+    <ClCompile Include="SavePoint.cpp" />
+    <ClCompile Include="SavePoint1.cpp" />
+    <ClCompile Include="SavePoint2.cpp" />
+    <ClCompile Include="SavePoint3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SavePointPrefab.cpp" />
+    <ClCompile Include="Shark.cpp" />
+    <ClCompile Include="SHARK_ATTACK.cpp" />
+    <ClCompile Include="SHARK_GAME_OVER.cpp" />
+    <ClCompile Include="SHARK_HIT.cpp" />
+    <ClCompile Include="SHARK_RUN.cpp" />
+    <ClCompile Include="SHARK_WALK.cpp" />
+    <ClCompile Include="SpritePrefab.cpp" />
+    <ClCompile Include="Hurdle.cpp" />
+    <ClCompile Include="HurdlePrefab.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemPrefab.cpp" />
+    <ClCompile Include="Mercury.cpp" />
+    <ClCompile Include="MovableTile.cpp" />
+    <ClCompile Include="MovableTilePrefab.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerHeadTrigger.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="STATE_B3_11_DASH.cpp" />
+    <ClCompile Include="STATE_B3_11_FALL.cpp" />
+    <ClCompile Include="STATE_B3_11_FALL_ATTACK.cpp" />
+    <ClCompile Include="STATE_B3_11_GAME_OVER.cpp" />
+    <ClCompile Include="STATE_B3_11_HIT.cpp" />
+    <ClCompile Include="STATE_B3_11_IDLE.cpp" />
+    <ClCompile Include="STATE_B3_11_IDLE_ATTACK.cpp" />
+    <ClCompile Include="STATE_B3_11_JUMP.cpp" />
+    <ClCompile Include="STATE_B3_11_JUMP_ATTACK.cpp" />
+    <ClCompile Include="STATE_B3_11_WALK.cpp" />
+    <ClCompile Include="STATE_B3_11_WALK_ATTACK.cpp" />
+    <ClCompile Include="STATE_B3_11_WALL.cpp" />
+    <ClCompile Include="STATE_B3_11_WALL_ATTACK.cpp" />
+    <ClCompile Include="TestEnemyPrefab.cpp" />
+    <ClCompile Include="TestScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TestScene2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TestTxt.cpp" />
+    <ClCompile Include="TileMapData.cpp" />
+    <ClCompile Include="TilePrefab.cpp" />
+    <ClCompile Include="EnemyPrefab.cpp" />
+    <ClCompile Include="TransitionDash.cpp" />
+    <ClCompile Include="TransitionVerti.cpp" />
+    <ClCompile Include="Turtle.cpp" />
+    <ClCompile Include="TutorialScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcquireCharge.h" />
+    <ClInclude Include="AngryMotion.h" />
+    <ClInclude Include="AnimClipLoader.h" />
+    <ClInclude Include="B3_11.h" />
+    <ClInclude Include="B3_11Prefab.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="BossMap.h" />
+    <ClInclude Include="BossPrefab.h" />
+    <ClInclude Include="BOSS_ENEMY_SUMMON.h" />
+    <ClInclude Include="BOSS_GAME_OVER.h" />
+    <ClInclude Include="BOSS_HIT.h" />
+    <ClInclude Include="BOSS_HORIZONTAL_ATTACK.h" />
+    <ClInclude Include="BOSS_IDLE.h" />
+    <ClInclude Include="BOSS_VERTICAL_ATTACK.h" />
+    <ClInclude Include="BrokenWall.h" />
+    <ClInclude Include="BrokenWallPrefab.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletPrefab.h" />
+    <ClInclude Include="CameraController.h" />
+    <ClInclude Include="CameraPrefab.h" />
+    <ClInclude Include="ChallengeStage.h" />
+    <ClInclude Include="DashMap.h" />
+    <ClInclude Include="EnemyController.h" />
+    <ClInclude Include="FadeIn.h" />
+    <ClInclude Include="FadeOut.h" />
+    <ClInclude Include="FallGround.h" />
+    <ClInclude Include="GameOverTextPrefab.h" />
+    <ClInclude Include="GameProcess.h" />
+    <ClInclude Include="GetThroughTile.h" />
+    <ClInclude Include="GetThroughTilePrefab.h" />
+    <ClInclude Include="IntroScene.h" />
+    <ClInclude Include="JellyFish.h" />
+    <ClInclude Include="JELLYFISH_GAME_OVER.h" />
+    <ClInclude Include="JELLYFISH_HIT.h" />
+    <ClInclude Include="Lazer.h" />
+    <ClInclude Include="MainStage1.h" />
+    <ClInclude Include="MainStage2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="MapLoader.h" />
+    <ClInclude Include="MiddleSave.h" />
+    <ClInclude Include="Penguin.h" />
+    <ClInclude Include="PENGUIN_ATTACK.h" />
+    <ClInclude Include="PENGUIN_GAME_OVER.h" />
+    <ClInclude Include="PENGUIN_HIT.h" />
+    <ClInclude Include="PENGUIN_RUN.h" />
+    <ClInclude Include="PENGUIN_WALK.h" />
+    <ClInclude Include="Portal.h" />
+    <ClInclude Include="PortalPrefab.h" />
+    <ClInclude Include="SavePoint.h" />
+    <ClInclude Include="SavePoint1.h" />
+    <ClInclude Include="SavePoint2.h" />
+    <ClInclude Include="SavePoint3.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="SavePointPrefab.h" />
+    <ClInclude Include="Shark.h" />
+    <ClInclude Include="SHARK_ATTACK.h" />
+    <ClInclude Include="SHARK_GAME_OVER.h" />
+    <ClInclude Include="SHARK_HIT.h" />
+    <ClInclude Include="SHARK_RUN.h" />
+    <ClInclude Include="SHARK_WALK.h" />
+    <ClInclude Include="SpritePrefab.h" />
+    <ClInclude Include="Hurdle.h" />
+    <ClInclude Include="HurdlePrefab.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemPrefab.h" />
+    <ClInclude Include="Mercury.h" />
+    <ClInclude Include="MovableTile.h" />
+    <ClInclude Include="MovableTilePrefab.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerHeadTrigger.h" />
+    <ClInclude Include="prefab.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="STATE_B3_11_DASH.h" />
+    <ClInclude Include="STATE_B3_11_FALL.h" />
+    <ClInclude Include="STATE_B3_11_FALL_ATTACK.h" />
+    <ClInclude Include="STATE_B3_11_GAME_OVER.h" />
+    <ClInclude Include="STATE_B3_11_HIT.h" />
+    <ClInclude Include="STATE_B3_11_IDLE.h" />
+    <ClInclude Include="STATE_B3_11_IDLE_ATTACK.h" />
+    <ClInclude Include="STATE_B3_11_JUMP.h" />
+    <ClInclude Include="STATE_B3_11_JUMP_ATTACK.h" />
+    <ClInclude Include="STATE_B3_11_WALK.h" />
+    <ClInclude Include="STATE_B3_11_WALK_ATTACK.h" />
+    <ClInclude Include="STATE_B3_11_WALL.h" />
+    <ClInclude Include="STATE_B3_11_WALL_ATTACK.h" />
+    <ClInclude Include="JELLYFISH_WALK.h" />
+    <ClInclude Include="TestEnemyPrefab.h" />
+    <ClInclude Include="TestScene.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="TestScene2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="TestTxt.h" />
+    <ClInclude Include="TileMapData.h" />
+    <ClInclude Include="TilePrefab.h" />
+    <ClInclude Include="EnemyPrefab.h" />
+    <ClInclude Include="TransitionDash.h" />
+    <ClInclude Include="TransitionVerti.h" />
+    <ClInclude Include="Turtle.h" />
+    <ClInclude Include="TutorialScene.h" />
+    <ClInclude Include="UIManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JW2DEngine\JW2DEngine.vcxproj">
+      <Project>{6f476ace-aed8-4e83-8a6c-1d4d46b2ef39}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\1_Executable\ver0.6\MapData\SavePoint1.json" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

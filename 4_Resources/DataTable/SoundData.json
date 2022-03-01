@@ -1,0 +1,82 @@
+{
+  "1001": {
+    "Name": "MainBGM",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Bgm\\BackgroundFinal.wav",
+    "Loop": "TRUE"
+  },
+  "1002": {
+    "Name": "TitleBGM",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Bgm\\Title.wav",
+    "Loop": "TRUE"
+  },
+  "1003": {
+    "Name": "CreditsBGM",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Bgm\\CreditsBackground.wav",
+    "Loop": "TRUE"
+  },
+  "1004": {
+    "Name": "BossBGM",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Bgm\\BossMusic.wav",
+    "Loop": "TRUE"
+  },
+  "1005": {
+    "Name": "PlayerMove",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Player\\Move.wav",
+    "Loop": "FALSE"
+  },
+  "1006": {
+    "Name": "PlayerEnergyCharge",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Player\\EnergyCharge.wav",
+    "Loop": "FALSE"
+  },
+  "1007": {
+    "Name": "PlayerJump",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Player\\Jump.wav",
+    "Loop": "FALSE"
+  },
+  "1008": {
+    "Name": "PlayerAttack",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Player\\Attack2.wav",
+    "Loop": "FALSE"
+  },
+  "1009": {
+    "Name": "PlayerWallJump",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Player\\WallJump.wav",
+    "Loop": "FALSE"
+  },
+  "1010": {
+    "Name": "PenguinAlert",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\EnemySFX\\PenguinAlert.wav",
+    "Loop": "FALSE"
+  },
+  "1011": {
+    "Name": "SharkAlert",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\EnemySFX\\SharkSnarl.wav",
+    "Loop": "FALSE"
+  },
+  "1012": {
+    "Name": "ObjectBreak",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\EnemySFX\\glassshatter.wav",
+    "Loop": "FALSE"
+  },
+  "1013": {
+    "Name": "ObjectSaw",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\EnemySFX\\saw.wav",
+    "Loop": "FALSE"
+  },
+  "1014": {
+    "Name": "MenuMove",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\MenuSFX\\MenuMove.wav",
+    "Loop": "FALSE"
+  },
+  "1015": {
+    "Name": "MenuNoButton",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\MenuSFX\\MenuNoButton.wav",
+    "Loop": "FALSE"
+  },
+  "1016": {
+    "Name": "MenuYesButton",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\MenuSFX\\MenuYesButton.wav",
+    "Loop": "FALSE"
+  }
+}

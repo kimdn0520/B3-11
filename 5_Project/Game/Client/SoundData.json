@@ -1,0 +1,27 @@
+{
+  "1001": {
+    "Name": "MainBGM",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Bgm\\BellTone.wav",
+    "Loop": 1
+  },
+  "1002": {
+    "Name": "PlayerAttack",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Player\\Attack.wav",
+    "Loop": 0
+  },
+  "1003": {
+    "Name": "PlayerMove",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Player\\Move.wav",
+    "Loop": 0
+  },
+  "1004": {
+    "Name": "PlayerJump",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Player\\Jump.wav",
+    "Loop": 0
+  },
+  "1005": {
+    "Name": "PlayerMove",
+    "FileRoot": "..\\..\\4_Resources\\Sound\\Player\\Move.wav",
+    "Loop": 0
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "mapSize": [
+    20,
+    20
+  ],
+  "gameObjects": {
+    "Resource\\BackGroundSheet\\Box (128_128).png": {
+      "pos": [
+        [
+          7,
+          18
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Circular_Saw (128_128).png": {
+      "pos": [
+        [
+          4,
+          14
+        ],
+        [
+          8,
+          14
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Desk (256_128).png": {
+      "pos": [
+        [
+          3,
+          18
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Glass_Tube (128_256).png": {
+      "pos": [
+        [
+          2,
+          18
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Glass_Tube_Penguin (128_256).png": {
+      "pos": [
+      ]
+    },
+    "Resource\\BackGroundSheet\\Glass_Tube_Shark (128_256).png": {
+      "pos": [
+      ]
+    },
+    "Resource\\BackGroundSheet\\Glass_Tube_Turtle (128_256).png": {
+      "pos": [
+      ]
+    },
+    "Resource\\BackGroundSheet\\Laser_Trap_L.png": {
+      "pos": [
+      ]
+    },
+    "Resource\\BackGroundSheet\\Laser_Trap_M.png": {
+      "pos": [
+      ]
+    },
+    "Resource\\BackGroundSheet\\Laser_Trap_R.png": {
+      "pos": [
+      ]
+    },
+    "Resource\\BackGroundSheet\\Light_Type A (128_128).png": {
+      "pos": [
+      ]
+    },
+    "Resource\\BackGroundSheet\\Platform_Floating_Type A (128_128).png": {
+      "pos": [
+        [
+          5,
+          15
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          15
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Platform_Pass_Type A (128_128).png": {
+      "pos": [
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          12,
+          14
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Platform_Pass_Type W (128_128).png": {
+      "pos": [
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          3,
+          14
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Platform_Type A (128_128).png": {
+      "pos": [
+        [
+          14,
+          15
+        ],
+        [
+          14,
+          16
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Platform_Type B (128_128).png": {
+      "pos": [
+        [
+          16,
+          19
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Platform_Type D (128_128).png": {
+      "pos": [
+        [
+          1,
+          19
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Platform_Type W (128_128).png": {
+      "pos": [
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          17,
+          14
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          19
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\Platform_Type C (128_128).png": {
+      "pos": [
+        [
+          2,
+          19
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          8,
+          19
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          12,
+          19
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          15,
+          19
+        ]
+      ]
+    },
+    "Resource\\BackGroundSheet\\PlayerStart.png": {
+      "pos": [
+      ]
+    },
+    "Resource\\BackGroundSheet\\Wall_Type A (128_128).png": {
+      "pos": [
+      ]
+    },
+    "Resource\\BackGroundSheet\\holographic_monitor (128_128).png": {
+      "pos": [
+      ]
+    }
+  }
+}

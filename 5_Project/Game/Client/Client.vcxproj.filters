@@ -1,0 +1,690 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{bc4ea74e-2697-4992-b01c-7ccfd0323b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{66520a8c-72ab-45f8-ae6c-83c779e466a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{b5a252db-cd6d-48c4-90c3-7a5fcd6f7383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{5034c6b0-3bb3-4699-baef-c2452e8ab721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectPool">
+      <UniqueIdentifier>{8e162ba7-e54f-40e0-92fe-97133a6c1184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefabs">
+      <UniqueIdentifier>{d38a5eed-2968-4729-8265-3f70728208cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameData">
+      <UniqueIdentifier>{837d315c-98e5-4950-8abb-6d9b3daf8fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIManager">
+      <UniqueIdentifier>{48d18288-f000-47ff-b582-317e17b2dc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefabs\GroundType">
+      <UniqueIdentifier>{562e28db-51bc-49c0-a7cd-12c330a9c730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{933c70ae-24f7-433e-a5c8-f4495d537000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\LoadingScene">
+      <UniqueIdentifier>{007c9c09-3f10-4eda-a08d-9057f6b85cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\IntroScene">
+      <UniqueIdentifier>{98236c64-d3f8-4568-bf52-af21452c6e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefabs\Trap">
+      <UniqueIdentifier>{f74b84e0-2b8b-4cb7-a815-3d02833af0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{c6d8978d-b6c2-41ed-9e10-121fb058a93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\etc">
+      <UniqueIdentifier>{a026b7e9-40f3-41a5-b7c7-08bda54bc12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Player">
+      <UniqueIdentifier>{0d1ca701-a9a7-4285-b4f9-8bc441accb12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy">
+      <UniqueIdentifier>{306af480-df4d-4eba-9e64-5f9dca46c1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\B3_11">
+      <UniqueIdentifier>{88085573-7fa1-4da1-b523-28a055f3ff0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\B3_11\B3_11_States">
+      <UniqueIdentifier>{2b70d349-8685-43f9-8dc3-b0c56ac6dc5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Objects">
+      <UniqueIdentifier>{01b86f72-d225-4f12-92d9-239f3018277c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\0_Interface">
+      <UniqueIdentifier>{9e972fa3-1bd5-4ccf-8780-b57ad8713f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy\Penguin">
+      <UniqueIdentifier>{f46295e2-9cea-4cba-ba2c-7efd2b7a62a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy\Shark">
+      <UniqueIdentifier>{63f450c6-4faa-4bce-84b7-bbb4dee1bb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy\Shark\Shark_State">
+      <UniqueIdentifier>{b05b5b58-c490-4096-80f9-afede1ee3953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy\Penguin\Penguin_State">
+      <UniqueIdentifier>{8600476a-2488-41fc-a477-3874bfd75534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy\Turtle">
+      <UniqueIdentifier>{8cc7a3d6-8c59-46a2-a8c6-d5824f7e4970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy\JellyFish">
+      <UniqueIdentifier>{61804a31-d24c-4bd6-91ee-7f2f06dffd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy\JellyFish\JelltFish_state">
+      <UniqueIdentifier>{a3a284f5-c53b-47ef-9b9d-d9447672fa7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy\Boss">
+      <UniqueIdentifier>{fa42436f-9684-493a-b4ad-b593421b3756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\Enemy\Boss\Boss_State">
+      <UniqueIdentifier>{a6197d89-a1ae-40be-8fba-e2a7c4a89ffd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Mercury.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene2.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapData.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEnemyPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="B3_11Prefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="SpritePrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="BrokenWallPrefab.cpp">
+      <Filter>Prefabs\GroundType</Filter>
+    </ClCompile>
+    <ClCompile Include="GetThroughTilePrefab.cpp">
+      <Filter>Prefabs\GroundType</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableTilePrefab.cpp">
+      <Filter>Prefabs\GroundType</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePrefab.cpp">
+      <Filter>Prefabs\GroundType</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Scene\IntroScene</Filter>
+    </ClCompile>
+    <ClCompile Include="HurdlePrefab.cpp">
+      <Filter>Prefabs\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimClipLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="BrokenWall.cpp">
+      <Filter>Scripts\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeIn.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeOut.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="GetThroughTile.cpp">
+      <Filter>Scripts\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Hurdle.cpp">
+      <Filter>Scripts\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Scripts\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableTile.cpp">
+      <Filter>Scripts\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTxt.cpp">
+      <Filter>Scripts\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Scripts\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHeadTrigger.cpp">
+      <Filter>Scripts\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Scripts\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyController.cpp">
+      <Filter>Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="MainStage1.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="B3_11.cpp">
+      <Filter>Scripts\B3_11</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Scripts\0_Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_FALL.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_IDLE.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_IDLE_ATTACK.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_JUMP.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_WALK.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_WALL.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_HIT.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_GAME_OVER.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_WALK_ATTACK.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_DASH.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="Shark.cpp">
+      <Filter>Scripts\Enemy\Shark</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_FALL_ATTACK.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_WALL_ATTACK.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="SHARK_ATTACK.cpp">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClCompile>
+    <ClCompile Include="SHARK_GAME_OVER.cpp">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClCompile>
+    <ClCompile Include="SHARK_HIT.cpp">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClCompile>
+    <ClCompile Include="SHARK_RUN.cpp">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClCompile>
+    <ClCompile Include="SHARK_WALK.cpp">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClCompile>
+    <ClCompile Include="Penguin.cpp">
+      <Filter>Scripts\Enemy\Penguin</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_JUMP_ATTACK.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="PENGUIN_ATTACK.cpp">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClCompile>
+    <ClCompile Include="PENGUIN_GAME_OVER.cpp">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClCompile>
+    <ClCompile Include="PENGUIN_HIT.cpp">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClCompile>
+    <ClCompile Include="PENGUIN_RUN.cpp">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClCompile>
+    <ClCompile Include="PENGUIN_WALK.cpp">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionVerti.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleSave.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainStage2.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionDash.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DashMap.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AcquireCharge.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint1.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint2.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ChallengeStage.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverTextPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.cpp">
+      <Filter>Scripts\Enemy\Turtle</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint3.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Scripts\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Lazer.cpp" />
+    <ClCompile Include="BossMap.cpp" />
+    <ClCompile Include="JELLYFISH_WALK.cpp">
+      <Filter>Scripts\Enemy\JellyFish\JelltFish_state</Filter>
+    </ClCompile>
+    <ClCompile Include="JELLYFISH_HIT.cpp">
+      <Filter>Scripts\Enemy\JellyFish\JelltFish_state</Filter>
+    </ClCompile>
+    <ClCompile Include="JELLYFISH_GAME_OVER.cpp">
+      <Filter>Scripts\Enemy\JellyFish\JelltFish_state</Filter>
+    </ClCompile>
+    <ClCompile Include="JellyFish.cpp">
+      <Filter>Scripts\Enemy\JellyFish\JelltFish_state</Filter>
+    </ClCompile>
+    <ClCompile Include="Lazer.cpp">
+      <Filter>Scripts\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMap.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePoint.cpp">
+      <Filter>Scripts\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SavePointPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_JUMP_ATTACK.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="STATE_B3_11_FALL_ATTACK.cpp">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Scripts\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS_ENEMY_SUMMON.cpp">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS_GAME_OVER.cpp">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS_HIT.cpp">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS_HORIZONTAL_ATTACK.cpp">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS_IDLE.cpp">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS_VERTICAL_ATTACK.cpp">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClCompile>
+    <ClCompile Include="BossPrefab.cpp">
+      <Filter>Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="AngryMotion.cpp">
+      <Filter>Scripts\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FallGround.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Mercury.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene2.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapData.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEnemyPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="B3_11Prefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="prefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="SpritePrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="BrokenWallPrefab.h">
+      <Filter>Prefabs\GroundType</Filter>
+    </ClInclude>
+    <ClInclude Include="GetThroughTilePrefab.h">
+      <Filter>Prefabs\GroundType</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableTilePrefab.h">
+      <Filter>Prefabs\GroundType</Filter>
+    </ClInclude>
+    <ClInclude Include="TilePrefab.h">
+      <Filter>Prefabs\GroundType</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Scene\IntroScene</Filter>
+    </ClInclude>
+    <ClInclude Include="HurdlePrefab.h">
+      <Filter>Prefabs\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimClipLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="BrokenWall.h">
+      <Filter>Scripts\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeIn.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeOut.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="GetThroughTile.h">
+      <Filter>Scripts\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Hurdle.h">
+      <Filter>Scripts\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Scripts\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableTile.h">
+      <Filter>Scripts\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTxt.h">
+      <Filter>Scripts\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Scripts\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHeadTrigger.h">
+      <Filter>Scripts\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Scripts\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyController.h">
+      <Filter>Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="MainStage1.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="B3_11.h">
+      <Filter>Scripts\B3_11</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Scripts\0_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_IDLE.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_WALK.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_JUMP.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_FALL.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_IDLE_ATTACK.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_WALK_ATTACK.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_JUMP_ATTACK.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_FALL_ATTACK.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_WALL.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_WALL_ATTACK.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_GAME_OVER.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_DASH.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="STATE_B3_11_HIT.h">
+      <Filter>Scripts\B3_11\B3_11_States</Filter>
+    </ClInclude>
+    <ClInclude Include="Shark.h">
+      <Filter>Scripts\Enemy\Shark</Filter>
+    </ClInclude>
+    <ClInclude Include="SHARK_WALK.h">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClInclude>
+    <ClInclude Include="SHARK_ATTACK.h">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClInclude>
+    <ClInclude Include="SHARK_GAME_OVER.h">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClInclude>
+    <ClInclude Include="SHARK_HIT.h">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClInclude>
+    <ClInclude Include="SHARK_RUN.h">
+      <Filter>Scripts\Enemy\Shark\Shark_State</Filter>
+    </ClInclude>
+    <ClInclude Include="Penguin.h">
+      <Filter>Scripts\Enemy\Penguin</Filter>
+    </ClInclude>
+    <ClInclude Include="PENGUIN_ATTACK.h">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClInclude>
+    <ClInclude Include="PENGUIN_GAME_OVER.h">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClInclude>
+    <ClInclude Include="PENGUIN_HIT.h">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClInclude>
+    <ClInclude Include="PENGUIN_RUN.h">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClInclude>
+    <ClInclude Include="PENGUIN_WALK.h">
+      <Filter>Scripts\Enemy\Penguin\Penguin_State</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionVerti.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleSave.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainStage2.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TransitionDash.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DashMap.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AcquireCharge.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePoint1.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePoint2.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ChallengeStage.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverTextPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Turtle.h">
+      <Filter>Scripts\Enemy\Turtle</Filter>
+    </ClInclude>
+    <ClInclude Include="JELLYFISH_WALK.h">
+      <Filter>Scripts\Enemy\JellyFish\JelltFish_state</Filter>
+    </ClInclude>
+    <ClInclude Include="JELLYFISH_HIT.h">
+      <Filter>Scripts\Enemy\JellyFish\JelltFish_state</Filter>
+    </ClInclude>
+    <ClInclude Include="JELLYFISH_GAME_OVER.h">
+      <Filter>Scripts\Enemy\JellyFish\JelltFish_state</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePoint3.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Scripts\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="JellyFish.h">
+      <Filter>Scripts\Enemy\JellyFish\JelltFish_state</Filter>
+    </ClInclude>
+    <ClInclude Include="Lazer.h">
+      <Filter>Scripts\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMap.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePoint.h">
+      <Filter>Scripts\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SavePointPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Scripts\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS_ENEMY_SUMMON.h">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS_GAME_OVER.h">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS_HIT.h">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS_HORIZONTAL_ATTACK.h">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS_IDLE.h">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS_VERTICAL_ATTACK.h">
+      <Filter>Scripts\Enemy\Boss\Boss_State</Filter>
+    </ClInclude>
+    <ClInclude Include="BossPrefab.h">
+      <Filter>Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="AngryMotion.h">
+      <Filter>Scripts\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="FallGround.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\1_Executable\ver0.6\MapData\SavePoint1.json">
+      <Filter>Scripts\Objects</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{a6d388f0-19db-4999-b906-383032625d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{e0d15cd2-67a1-4239-b5de-da8e84bc0048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{a44c0942-70a0-4565-8f82-0df8582d1c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{1e955883-e7c9-4110-b3a1-84ea13e2a1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component">
+      <UniqueIdentifier>{21b8405c-e992-434b-b960-0a8d6bb6b723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\GameObject">
+      <UniqueIdentifier>{a09b5a20-94b7-45ad-a457-40ec51a9acf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Collider">
+      <UniqueIdentifier>{35c83c15-0424-4ce2-b00f-ff53480de0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Transform">
+      <UniqueIdentifier>{a7681ecb-7a5e-4455-baf2-0bcea4f6d3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\MonoBehaviour">
+      <UniqueIdentifier>{eac55f54-c557-418f-8b39-65a501c88d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Renderer">
+      <UniqueIdentifier>{63e83ca7-a57c-45b5-a07f-742b90fa09f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{ead60c1b-4db2-42a9-aaec-408d44861923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Text">
+      <UniqueIdentifier>{7ce765bd-5b73-4d12-852e-b78ef2b9b4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Rigidbody">
+      <UniqueIdentifier>{a1b60644-511f-49e0-95a0-017174c8c40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Animation">
+      <UniqueIdentifier>{8c970726-74d0-4239-8702-45508a6210f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Animation\Sprite">
+      <UniqueIdentifier>{ac721ce2-4a38-45e9-8de1-6fe8ef0cbe15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Animator">
+      <UniqueIdentifier>{7aee7ab4-1a05-44a8-a50a-e6908cd5a68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Animation\AnimationClip">
+      <UniqueIdentifier>{0d403315-b45a-4210-a3b1-df9b8ae0aeff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Camera">
+      <UniqueIdentifier>{e114ad6f-8b50-4ce3-bd64-f3cc4614330d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DataTable">
+      <UniqueIdentifier>{85fc3533-124b-4c09-8a28-73162319d6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Button">
+      <UniqueIdentifier>{4fce80b6-cbf6-4321-9be4-9d7b7e9f4a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Component\Canvas">
+      <UniqueIdentifier>{e9a49538-31f8-48b5-914f-87d7f6069766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Panel">
+      <UniqueIdentifier>{f1009e28-d4fe-4da4-bf57-e0c7cbf0eeef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="JW2DEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DRMacro.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Engine\Component\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderBase.h">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Engine\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Engine\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour.h">
+      <Filter>Engine\Component\MonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererBase.h">
+      <Filter>Engine\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleRenderer.h">
+      <Filter>Engine\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxRenderer.h">
+      <Filter>Engine\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Engine\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Engine\Component\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Engine\Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Animation\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>Engine\Animation\AnimationClip</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Engine\Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCollider.h">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="OBBCollider.h">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONSetting.h">
+      <Filter>Engine\DataTable</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundTable.h">
+      <Filter>Engine\DataTable</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDataTable.h">
+      <Filter>Engine\DataTable</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Engine\Component\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Engine\Component\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Engine\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="JW2DEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Engine\Component\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderBase.cpp">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Engine\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Engine\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour.cpp">
+      <Filter>Engine\Component\MonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="RendererBase.cpp">
+      <Filter>Engine\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleRenderer.cpp">
+      <Filter>Engine\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxRenderer.cpp">
+      <Filter>Engine\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Engine\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Engine\Component\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Engine\Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Animation\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>Engine\Animation\AnimationClip</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Engine\Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="LineCollider.cpp">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="OBBCollider.cpp">
+      <Filter>Engine\Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONSetting.cpp">
+      <Filter>Engine\DataTable</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundTable.cpp">
+      <Filter>Engine\DataTable</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDataTable.cpp">
+      <Filter>Engine\DataTable</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Engine\Component\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Engine\Component\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Engine\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp" />
+  </ItemGroup>
+</Project>
